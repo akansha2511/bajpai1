@@ -1,0 +1,9 @@
+---
+applications:
+- path: target/RKITM.war
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: RKITM
+  host: RKITM
+  disk_quota: 256M
